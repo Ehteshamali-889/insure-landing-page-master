@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Insure landing page</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="insureheader">
+    <img src="./images/logo.svg" alt="logo" class="logoheader">
+    <div class="rightmenu">
+      <ul class="navmenu">
+        <li class="navli">How we work</li>
+        <li class="navli">Blog</li>
+        <li class="navli">Account</li>
+      </ul>
+      <button class="viewplan">View plans</button>
+      <img src="./images/icon-hamburger.svg" alt="hamburger" class="hamburger" onclick="toggleMobileMenu()">
+      <img src="./images/icon-close.svg" alt="closeicon" class="closeicon" onclick="toggleMobileMenu()">
+    </div>
+    
+  </header>
+
+  <div class="mobilemenu">
+    <ul class="navmobilemenu">
+      <li class="navlimobile">How we work</li>
+      <li class="navlimobile">Blog</li>
+      <li class="navlimobile">Account</li>
+    </ul>
+    <button class="viewplanmobile">View plans</button>
+  </div>
+  <main class="introinsure">
+    <section class="textintrosection">
+      <h1 class="humanheding">Humanizing <br> your insurance.</h1>
+      <p class="humanpara">Get your life insurance coverage easier and faster.We blend our expertise<br> 
+        and technology to help you find the plan that’s right for you. Ensure you<br> 
+        and your loved ones are protected.</p>
+        <button class="viewplan-light">View plans</button>
+    </section>
+    <section class="introimgsection">
+      <img src="./images/image-intro-desktop.jpg" alt="insurehuman" class="insurehumanimg">
+    </section>
+    <span class="line"></span>
+    <img src="./images/bg-pattern-intro-left-desktop.svg" alt="leftpattern" class="leftpattern">
+    <img src="./images/bg-pattern-intro-right-desktop.svg" alt="rightpattern" class="rightpattern">
+  </main>
+  <main class="introinsuremobile">
+    <section class="introimgsectionmobile">
+      <img src="./images/image-intro-mobile.jpg" alt="insurehuman" class="insurehumanimgmobile">
+    </section>
+    <section class="textintrosectionmobile">
+      <h1 class="humanhedingmobile">Humanizing <br> your insurance.</h1>
+      <p class="humanparamobile">Get your life insurance coverage easier and<br>  faster.We blend our expertise
+        and<br> technology to help you find the plan that’s<br> right for you. Ensure you
+        and your loved<br> ones are protected.</p>
+        <button class="viewplan-light-mobile">View plans</button>
+      <img src="./images/bg-pattern-intro-left-mobile.svg" alt="leftpattern" class="leftpatternmobile">
+      <img src="./images/bg-pattern-intro-right-mobile.svg" alt="rightpattern" class="rightpatternmobile">
+    </section>
+    
+    
+  </main>
+  <section class="highlightinsure">
+    <span class="linecollection"></span>
+    <h2 class="headinghighlight">We’re different</h2>
+    <section class="highightcollection">
+      <section>
+        <img src="./images/icon-snappy-process.svg" alt="snappy-process">
+        <h2 class="collectionheading">Snappy Process</h2>
+        <p class="collectionpara">Our application process can be completed in<br> minutes, not hours. Don’t get 
+          stuck filling in<br> tedious forms.</p>
+      </section>
+      <section>
+        <img src="./images/icon-affordable-prices.svg" alt="affordable-prices">
+        <h2 class="collectionheading">Affordable Prices</h2>
+        <p class="collectionpara">We don’t want you worrying about high monthly<br> costs. Our prices may be low, 
+          but we still offer<br> the best coverage possible.</p>
+      </section>
+      <section>
+        <img src="./images/icon-people-first.svg" alt="people-first">
+        <h2 class="collectionheading">People First</h2>
+        <p class="collectionpara">Our plans aren’t full of conditions and clauses<br> to prevent payouts. We make 
+          sure you’re<br> covered when you need it.</p>
+      </section>
+    </section>
+    
+  </section>
+
+  
+  <section class="findoutmoresection">
+    <article>
+      <h2 class="headingfindoutsection">Find out more<br> about how we work</h2>
+    </article>
+    <button class="work-btn">How we work</button>
+    <img src="./images/bg-pattern-how-we-work-desktop.svg" alt="work-pattern" class="work-pattern">
+    <img src="./images/bg-pattern-how-we-work-mobile.svg" alt="work-pattern" class="work-pattern-mobile">
+  </section>
+
+  <footer class="footerinsure">
+    <img src="./images/bg-pattern-footer-desktop.svg" alt="pattern-footer" class="pattern-footer">
+    <section class="innerfooter">
+      <section class="topsectionfooter">
+        <img src="./images/logo.svg" alt="logo">
+        <div class="socialicons">
+          <div class="fblink">
+            <img src="./images/icon-facebook.svg" alt="fb">
+            <img src="./images/icon-facebook-hover.svg" alt="fb" class="hoverImage">
+          </div>
+          <div class="twitterlink">
+            <img src="./images/icon-twitter.svg" alt="twitter">
+            <img src="./images/icon-twitter-hover.svg" alt="twitter" class="hoverImage">
+          </div>
+          <div class="instalink">
+            <img src="./images/icon-instagram.svg" alt="insta" >
+            <img src="./images/icon-instagram-hover.svg" alt="instagram" class="hoverImage">
+          </div>
+          <div class="instalink">
+            <img src="./images/icon-pinterest.svg" alt="pinterest">
+            <img src="./images/icon-pinterest-hover.svg" alt="pinterest" class="hoverImage">
+          </div>
+        </div>
+      </section>
+
+      <section class="footerlinks">
+        <article>
+          <h4 class="footerheading">Our company</h4>
+          <ul class="footerul">
+            <li class="singlelink">How we work</li>
+            <li class="singlelink">Why Insure?</li>
+            <li class="singlelink">View plans</li>
+            <li class="singlelink">Reviews</li>
+          </ul>
+        </article>
+        <article>
+          <h4 class="footerheading">Help me</h4>
+          <ul class="footerul">
+            <li class="singlelink">FAQ</li>
+            <li class="singlelink">Terms of use</li>
+            <li class="singlelink">Privacy policy</li>
+            <li class="singlelink">Cookies</li>
+          </ul>
+        </article>
+        <article>
+          <h4 class="footerheading">Contact</h4>
+          <ul class="footerul">
+            <li class="singlelink">Sales</li>
+            <li class="singlelink">Support</li>
+            <li class="singlelink">Live chat</li>
+          </ul>
+        </article>
+        <article>
+          <h4 class="footerheading">Others</h4>
+          <ul class="footerul">
+            <li class="singlelink">Careers</li>
+            <li class="singlelink">Press</li>
+            <li class="singlelink">Licenses</li>
+          </ul>
+        </article>
+      </section>
+
+    </section>
+    
+    
+  </footer>
+
+  <footer class="footerinsuremobile">
+    <img src="./images/bg-pattern-footer-mobile.svg" alt="pattern-footer" class="pattern-footer-mobile">
+    <section class="innerfootermobile">
+      <section class="topsectionfootermobile">
+        <img src="./images/logo.svg" alt="logo" class="footerlogo">
+        <div class="socialiconsmobile">
+          <div class="fblink">
+            <img src="./images/icon-facebook.svg" alt="fb">
+            <img src="./images/icon-facebook-hover.svg" alt="fb" class="hoverImage">
+          </div>
+          <div class="twitterlink">
+            <img src="./images/icon-twitter.svg" alt="twitter">
+            <img src="./images/icon-twitter-hover.svg" alt="twitter" class="hoverImage">
+          </div>
+          <div class="instalink">
+            <img src="./images/icon-instagram.svg" alt="insta" >
+            <img src="./images/icon-instagram-hover.svg" alt="instagram" class="hoverImage">
+          </div>
+          <div class="instalink">
+            <img src="./images/icon-pinterest.svg" alt="pinterest">
+            <img src="./images/icon-pinterest-hover.svg" alt="pinterest" class="hoverImage">
+          </div>
+        </div>
+      </section>
+
+      <section class="footerlinksmobile">
+        <article class="singlelinkhub">
+          <h4 class="footerheading">Our company</h4>
+          <ul class="footerul">
+            <li class="singlelink">How we work</li>
+            <li class="singlelink">Why Insure?</li>
+            <li class="singlelink">View plans</li>
+            <li class="singlelink">Reviews</li>
+          </ul>
+        </article>
+        <article class="singlelinkhub">
+          <h4 class="footerheading">Help me</h4>
+          <ul class="footerul">
+            <li class="singlelink">FAQ</li>
+            <li class="singlelink">Terms of use</li>
+            <li class="singlelink">Privacy policy</li>
+            <li class="singlelink">Cookies</li>
+          </ul>
+        </article>
+        <article class="singlelinkhub">
+          <h4 class="footerheading">Contact</h4>
+          <ul class="footerul">
+            <li class="singlelink">Sales</li>
+            <li class="singlelink">Support</li>
+            <li class="singlelink">Live chat</li>
+          </ul>
+        </article>
+        <article class="singlelinkhub">
+          <h4 class="footerheading">Others</h4>
+          <ul class="footerul">
+            <li class="singlelink">Careers</li>
+            <li class="singlelink">Press</li>
+            <li class="singlelink">Licenses</li>
+          </ul>
+        </article>
+      </section>
+
+    </section>
+    
+    
+  </footer>
+
+  
+
+
+  
+  
+  <script>
+    function toggleMobileMenu() {
+      var mobileMenu = document.querySelector('.mobilemenu');
+      var closeicon = document.querySelector('.closeicon');
+      var hamburger = document.querySelector('.hamburger');
+
+      if (mobileMenu.style.display === 'none' || mobileMenu.style.display === '') {
+          // Display the mobile menu and close icon, hide the hamburger
+          mobileMenu.style.display = 'flex';
+          closeicon.style.display = 'flex';
+          hamburger.style.display = 'none';
+      } else {
+          // Hide the mobile menu and close icon, display the hamburger
+          mobileMenu.style.display = 'none';
+          closeicon.style.display = 'none';
+          hamburger.style.display = 'flex';
+      }
+    }
+
+
+    // Disable zooming using the wheel event
+    // window.addEventListener('wheel', function (e) {
+    //   if (e.ctrlKey || e.metaKey) {
+    //     e.preventDefault();
+    //   }
+    // });
+
+    // // Disable zooming using Ctrl++ and Ctrl+-
+    // window.addEventListener('keydown', function (e) {
+    //   if ((e.ctrlKey || e.metaKey) && (e.key === ' ' || e.key === '-' || e.key === '+' || e.code !== 'Minus')) {
+    //     e.preventDefault();
+    //   }
+    // });
+
+    // // Optionally, you can disable zooming via touch gestures
+    // window.addEventListener('gesturestart', function (e) {
+    //   e.preventDefault();
+    // });
+    
+  </script>
+</body>
+</html>
